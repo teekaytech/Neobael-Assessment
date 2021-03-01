@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neobael :: Assessment</title>
     <style>
-      *,
-      html,
-      body {
+      * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -64,10 +62,37 @@
         font-weight: bolder;
       }
 
-      @media only screen and (min-width: 1024px) {
-      }
-
       @media only screen and (min-width: 768px) {
+        .container {
+          flex-direction: row;
+          width: 80%;
+          height: 30%;
+        }
+
+        .item-one {
+          height: 100%;
+          width: 25%;
+          border-radius: 0.3em;
+        }
+
+        .item-two {
+          padding: 10px;
+        }
+
+        .header {
+          font-size: 1.3em;
+          text-align: left;
+          padding-left: 0.7em;
+        }
+
+        .info {
+          padding: 1em 0.5em 0 0.5em;
+        }
+
+        .info-item {
+          padding: 0 1em;
+          font-size: 0.8em;
+        }
       }
     </style>
   </head>
