@@ -6,23 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neobael :: Assessment</title>
     <style>
-      *,
-      html,
-      body {
+      * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", Calibri;
       }
 
-      @media only screen and (min-width: 1024px) {
+      main {
+        height: 100vh;
+        font-size: 16px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 60%;
+        border: 1px solid #000;
+        border-radius: 0.8em;
+        margin: 0.8em auto;
+        padding: 0.75em;
+      }
+
+      .item-one {
+        height: 75%;
+        background-image: url("./assets/img/main-img.jpeg");
+        background-color: #ccc;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 6px;
+      }
+
+      .item-two {
+        height: 20%;
+        padding: 15px 10px;
+      }
+
+      .header {
+        font-size: 1.35em;
+        text-align: center;
+      }
+
+      .info {
+        display: flex;
+        padding: 1.2em;
+      }
+
+      .info-item {
+        text-align: center;
+        margin-left: 2em;
+      }
+
+      .info-item p {
+        font-weight: bolder;
       }
 
       @media only screen and (min-width: 768px) {
+        .container {
+          flex-direction: row;
+          width: 80%;
+          height: 30%;
+        }
+
+        .item-one {
+          height: 100%;
+          width: 30%;
+          border-radius: 0.3em;
+        }
+
+        .item-two {
+          padding: 10px;
+        }
+
+        .header {
+          font-size: 1.3em;
+          text-align: left;
+          padding-left: 0.7em;
+        }
+
+        .info {
+          padding: 1em 0.5em 0 0.5em;
+        }
+
+        .info-item {
+          margin-left: 2em;
+        }
+      }
+
+      @media only screen and (min-width: 1024px) {
+        .item-one {
+          width: 20%;
+        }
       }
     </style>
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <main>
+      <article class="container">
+        <figure class="item-one"></figure>
+        <div class="item-two container-details">
+          <h3 class="header">Fun times to be had by all</h3>
+          <section class="info">
+            <div class="info-item time-info">
+              <p>Time</p>
+              <span>6pm</span>
+            </div>
+            <div class="info-item day-info">
+              <p>Day</p>
+              <span>Monday</span>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <article class="container">
+        <figure class="item-one"></figure>
+        <div class="item-two container-details">
+          <h3 class="header">Second block</h3>
+          <section class="info">
+            <div class="info-item time-info">
+              <p>Time</p>
+              <span>2pm</span>
+            </div>
+            <div class="info-item day-info">
+              <p>Day</p>
+              <span>Tuesday</span>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
