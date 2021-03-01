@@ -9,7 +9,7 @@ In this project, I developed a single HTML page, with the CSS embedded within th
 - Webhint / Stylelint (Linters)
 - GitHub Pages (Deployment)
 
-## Live demo: [Live Demo Link](https://teekaytech.github.io/Neobael-Assessment/)
+### Live demo: [Live Demo Link](https://teekaytech.github.io/Neobael-Assessment/)
 
 ## Getting started
 
