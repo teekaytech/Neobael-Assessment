@@ -1,8 +1,8 @@
 # Neobael Assesssment (Responsive Web Page)
 
-In this project, I developed a single HTML page, with the CSS embedded within the HTML file, and also responsive when rendered on different view ports, be it desktop or mobile.
+In this project, I developed a single responsive HTML page, with the CSS embedded within the HTML file.
 
-**I developed the page with mobile-first responsiveness in mind. I was able to embed the image while following the project specifications. I used media queries to take care of the responsiveness on tablet and desktop screen sizes. The Design specification can be found [here](t.ly/09hO)**
+**I developed the page with mobile-first approach. I was able to embed the image specified in the project specifications. I used media queries to take care of the responsiveness on tablet and desktop screen sizes. The Design specification can be found [here](t.ly/09hO)**
 
 ## Built with
 
