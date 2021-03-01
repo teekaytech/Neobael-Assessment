@@ -1,0 +1,25 @@
+:root {
+  --background: #272a31;
+  --textColor: #ec5242;
+  --others: #d3d3d3;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--background);
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
