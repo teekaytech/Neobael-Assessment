@@ -1,15 +1,13 @@
 # Neobael Assesssment (Responsive Web Page)
 
-In this project, I developed a single responsive HTML page, with the CSS embedded within the HTML file.
-
-**I developed the page with mobile-first approach. I was able to embed the image specified in the project specifications. I used media queries to take care of the responsiveness on tablet and desktop screen sizes. The Design specification can be found [here](t.ly/09hO)**
+In this project, I developed a responsive HTML page, with the CSS embedded within the HTML file. I developed the page with mobile-first approach. I was able to embed the image specified in the project specifications. I used media queries to take care of the responsiveness on tablet and desktop screen sizes. The Design specification can be found [here](t.ly/09hO).
 
 ## Built with
 
 - HTML5
 - CSS3 (Media Queries)
 - Webhint / Stylelint (Linters)
-- GitHub Pages (Deployment)
+- GitHub/GitHub Pages Pages (Deployment)
 
 ## Live demo: [Live Demo Link](https://teekaytech.github.io/Neobael-Assessment/)
 
